@@ -9873,3 +9873,10 @@ p,span,li,a{
     opacity: 1 !important;
     visibility: visible !important;
 }
+/* FINAL FIX - SKILL NAMES */
+#skills-section .bg-white h2 {
+    color: #000000 !important;
+    -webkit-text-fill-color: #000000 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}

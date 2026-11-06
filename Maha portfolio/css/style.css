@@ -9866,3 +9866,10 @@ p,span,li,a{
     opacity: 1 !important;
     visibility: visible !important;
 }
+/* MAKE ALL SKILL TEXT BLACK */
+.progress-wrap,
+.progress-wrap * {
+    color: #000000 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}

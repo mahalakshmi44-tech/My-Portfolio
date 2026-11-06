@@ -398,7 +398,7 @@ mark,
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #fff;
+  background-color: #F4C95D;
   border: 1px solid #dee2e6;
   border-radius: 0.25rem;
   max-width: 100%;
@@ -413,7 +413,7 @@ mark,
 
 .figure-caption {
   font-size: 90%;
-  color: #6c757d; }
+  color: #C4B5FD; }
 
 code {
   font-size: 87.5%;
@@ -2121,7 +2121,7 @@ fieldset:disabled a.btn {
       box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5); }
 
 .btn-success {
-  color: #fff;
+  color: #38BDF8;
   background-color: #28a745;
   border-color: #28a745; }
   .btn-success:hover {
@@ -2146,7 +2146,7 @@ fieldset:disabled a.btn {
       box-shadow: 0 0 0 0.2rem rgba(72, 180, 97, 0.5); }
 
 .btn-info {
-  color: #fff;
+  color: #38BDF8;
   background-color: #17a2b8;
   border-color: #17a2b8; }
   .btn-info:hover {
@@ -2246,7 +2246,7 @@ fieldset:disabled a.btn {
       box-shadow: 0 0 0 0.2rem rgba(216, 217, 219, 0.5); }
 
 .btn-dark {
-  color: #fff;
+  color: #38BDF8;
   background-color: #343a40;
   border-color: #343a40; }
   .btn-dark:hover {
@@ -3736,14 +3736,14 @@ input[type="button"].btn-block {
       color: rgba(0, 0, 0, 0.9); }
 
 .navbar-dark .navbar-brand {
-  color: #fff; }
+  color: #38BDF8; }
   .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
     color: #fff; }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.5); }
+  color: #38BDF8; }
   .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
-    color: rgba(255, 255, 255, 0.75); }
+    color: #38BDF8; }
   .navbar-dark .navbar-nav .nav-link.disabled {
     color: rgba(255, 255, 255, 0.25); }
 
@@ -3751,7 +3751,7 @@ input[type="button"].btn-block {
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #fff; }
+  color: #38BDF8; }
 
 .navbar-dark .navbar-toggler {
   color: rgba(255, 255, 255, 0.5);
@@ -4241,7 +4241,7 @@ input[type="button"].btn-block {
   border-color: #b8daff; }
   .alert-primary hr {
     border-top-color: #9fcdff; }
-  .alert-primary .alert-link {
+  .alert-primary .alert-link  
     color: #002752; }
 
 .alert-secondary {
@@ -9914,4 +9914,144 @@ input, textarea, select {
     background-color: var(--portfolio-panel) !important;
     color: var(--portfolio-text) !important;
     border-color: #334155 !important;
+}
+/* Change white text colours */
+
+/* Website name */
+.navbar-brand {
+    color: #E6C98A !important;
+}
+
+/* Home, About, Skills, Education, Projects, Contact */
+.navbar-nav .nav-link {
+    color: #06D6D6 !important;
+}
+
+/* Main hero heading */
+.hero-content h1,
+.hero-section h1 {
+    color: #E6C98A !important;
+}
+
+/* Hero description */
+.hero-content p,
+.hero-section p {
+    color: #C7D2FE !important;
+}
+
+/* About and other section headings */
+h1, h2, h3 {
+    color: #E6C98A !important;
+}
+
+/* Normal paragraph text */
+p {
+    color: #C7D2FE !important;
+}
+/* FINAL TEXT COLOR OVERRIDE */
+
+/* Website name */
+body nav#ftco-navbar a.navbar-brand,
+body nav#ftco-navbar a.navbar-brand span {
+    color: #E6C98A !important;
+    -webkit-text-fill-color: #E6C98A !important;
+}
+
+/* Home, About, Skills, Education, Projects, Contact */
+body nav#ftco-navbar .navbar-nav .nav-item .nav-link,
+body nav#ftco-navbar .navbar-nav .nav-item .nav-link span {
+    color: #06D6D6 !important;
+    -webkit-text-fill-color: #06D6D6 !important;
+}
+
+/* Hello! This is Mahalakshmi */
+body #home-section .slider-item .one-forth .text .subheading {
+    color: #06D6D6 !important;
+    -webkit-text-fill-color: #06D6D6 !important;
+}
+
+/* Aspiring Full Stack Developer */
+body #home-section .slider-item .one-forth .text h1,
+body #home-section .slider-item .one-forth .text h1 span {
+    color: #38BDF8 !important;
+    -webkit-text-fill-color: #E6C98A !important;
+}
+
+/* Home description */
+body #home-section .slider-item .one-forth .text p {
+    color: #C7D2FE !important;
+    -webkit-text-fill-color: #C7D2FE !important;
+}
+
+/* Hi, I am Mahalakshmi - This is my favorite work */
+body #home-section .slider-item .one-forth .text h1 span {
+    color: #38BDF8 !important;
+    -webkit-text-fill-color: #06D6D6 !important;
+}
+/* BOLD PORTFOLIO TEXT COLORS */
+
+/* FINAL PORTFOLIO TEXT COLORS */
+
+/* Navbar */
+#ftco-navbar .navbar-brand {
+    color: #38BDF8 !important;
+}
+
+#ftco-navbar .navbar-nav .nav-link {
+    color: #38BDF8 !important;
+}
+
+/* All section headings */
+h1, h2, h3, h4, h5, h6,
+.heading-section h2 {
+    color: #38BDF8 !important;
+    -webkit-text-fill-color: #38BDF8 !important;
+}
+
+/* Normal paragraph text */
+p, li {
+    color: #C7D2FE !important;
+}
+
+/* Hero heading */
+#home-section .text h1,
+#home-section .text h1 span {
+    color: #38BDF8 !important;
+    -webkit-text-fill-color: #38BDF8 !important;
+}
+/* MAHA FINAL COLOR FIX */
+
+/* Navbar name */
+body #ftco-navbar a.navbar-brand,
+body #ftco-navbar a.navbar-brand span {
+    color: #38BDF8 !important;
+    -webkit-text-fill-color: #38BDF8 !important;
+}
+
+/* Home, About, Skills, Education, Projects, Contact */
+body #ftco-navbar .navbar-nav .nav-link,
+body #ftco-navbar .navbar-nav .nav-link span {
+    color: #38BDF8 !important;
+    -webkit-text-fill-color: #38BDF8 !important;
+}
+
+/* Hello! This is Mahalakshmi */
+body #home-section .one-forth .text .subheading {
+    color: #38BDF8 !important;
+    -webkit-text-fill-color: #38BDF8 !important;
+}
+
+/* Aspiring Full Stack Developer */
+body #home-section .one-forth .text h1,
+body #home-section .one-forth .text h1 span {
+    color: #38BDF8 !important;
+    -webkit-text-fill-color: #38BDF8 !important;
+}
+
+/* Other section headings */
+body h2,
+body h3,
+body .heading-section h2 {
+    color: #38BDF8 !important;
+    -webkit-text-fill-color: #38BDF8 !important;
 }

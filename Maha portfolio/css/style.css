@@ -9832,3 +9832,50 @@ p,span,li,a{
 .progress-circle .progress-right .progress-bar{
     border-color:#06b6d4 !important;
 }
+/* SKILLS TEXT VISIBILITY FIX */
+#skills-section .progress-wrap h2 {
+    color: #222222 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+#skills-section .progress-circle .progress-value,
+#skills-section .progress-circle .progress-value .h2,
+#skills-section .progress-circle .progress-value sup,
+#skills-section .progress-circle .progress-value .small {
+    color: #222222 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+/* FIX SKILL NAMES VISIBILITY */
+.progress-wrap .skill-title {
+    color: #222222 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.progress-wrap h2 {
+    color: #222222 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.progress-wrap h3 {
+    color: #222222 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+/* MAKE ALL SKILL TEXT BLACK */
+.progress-wrap,
+.progress-wrap * {
+    color: #000000 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+/* FINAL FIX - SKILL NAMES */
+#skills-section .bg-white h2 {
+    color: #000000 !important;
+    -webkit-text-fill-color: #000000 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}

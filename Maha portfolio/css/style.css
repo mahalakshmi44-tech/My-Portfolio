@@ -9848,3 +9848,21 @@ p,span,li,a{
     opacity: 1 !important;
     visibility: visible !important;
 }
+/* FIX SKILL NAMES VISIBILITY */
+.progress-wrap .skill-title {
+    color: #222222 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.progress-wrap h2 {
+    color: #222222 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.progress-wrap h3 {
+    color: #222222 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}

@@ -9978,11 +9978,14 @@ body nav#ftco-navbar .navbar-nav .nav-item.active .nav-link span {
     -webkit-text-fill-color: #F4C95D !important;
 }
 
-/* Portfolio text colour */
-body nav#ftco-navbar .navbar-brand,
-body nav#ftco-navbar .navbar-brand span,
-body #home-section .text h1,
-body #home-section .text h1 span {
-    color: #F8FAFC !important;
-    -webkit-text-fill-color: #F8FAFC !important;
+
+/* Portfolio text color override */
+
+.navbar-brand,
+.navbar-brand span,
+#home-section .text h1,
+#home-section .text h1 span,
+#home-section .text p {
+    color: #0F766E !important;
+    -webkit-text-fill-color: #0F766E !important;
 }

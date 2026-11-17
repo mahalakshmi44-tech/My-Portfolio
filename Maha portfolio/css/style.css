@@ -9954,3 +9954,26 @@ p,span,li,a{
         font-size: 30px;
     }
 }
+
+/* Navigation Bar - Bright Color */
+
+body nav#ftco-navbar .navbar-nav .nav-link,
+body nav#ftco-navbar .navbar-nav .nav-link span {
+    color: #00FFFF !important;
+    -webkit-text-fill-color: #00FFFF !important;
+    font-weight: 600 !important;
+}
+
+/* Hover Effect */
+body nav#ftco-navbar .navbar-nav .nav-link:hover,
+body nav#ftco-navbar .navbar-nav .nav-link:hover span {
+    color: #F4C95D !important;
+    -webkit-text-fill-color: #F4C95D !important;
+}
+
+/* Active Navigation */
+body nav#ftco-navbar .navbar-nav .nav-item.active .nav-link,
+body nav#ftco-navbar .navbar-nav .nav-item.active .nav-link span {
+    color: #F4C95D !important;
+    -webkit-text-fill-color: #F4C95D !important;
+}

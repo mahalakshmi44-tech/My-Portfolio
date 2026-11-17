@@ -9879,3 +9879,78 @@ p,span,li,a{
     opacity: 1 !important;
     visibility: visible !important;
 }
+/* Achievements Section */
+.maha-achievements {
+    padding: 80px 20px;
+    background: #05091c;
+    color: #ffffff;
+}
+
+.achievements-container {
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+}
+
+.achievements-subtitle {
+    color: #20c4e8;
+    letter-spacing: 4px;
+    font-weight: 700;
+}
+
+.maha-achievements h2 {
+    font-size: 38px;
+    margin: 15px 0;
+    color: #ffffff;
+}
+
+.achievements-description {
+    color: #c5c9d5;
+    margin-bottom: 40px;
+}
+
+.achievement-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    text-align: left;
+}
+
+.achievement-card {
+    padding: 30px;
+    border: 1px solid #26334f;
+    border-radius: 15px;
+    background: #10182d;
+    transition: transform 0.3s ease,
+                border-color 0.3s ease;
+}
+
+.achievement-card:hover {
+    transform: translateY(-8px);
+    border-color: #20c4e8;
+}
+
+.achievement-card h3 {
+    color: #20c4e8;
+    font-size: 24px;
+}
+
+.achievement-event {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.achievement-card p {
+    line-height: 1.7;
+    color: #c5c9d5;
+}
+
+@media (max-width: 600px) {
+    .achievement-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .maha-achievements h2 {
+        font-size: 30px;
+    }
+}

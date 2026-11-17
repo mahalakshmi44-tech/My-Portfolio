@@ -9977,3 +9977,34 @@ body nav#ftco-navbar .navbar-nav .nav-item.active .nav-link span {
     color: #F4C95D !important;
     -webkit-text-fill-color: #F4C95D !important;
 }
+
+/* ===== PORTFOLIO TEXT COLOR FINAL OVERRIDE ===== */
+
+/* Website name - Mahalakshmi.H */
+body nav#ftco-navbar .navbar-brand,
+body nav#ftco-navbar .navbar-brand span {
+    color: #FFD700 !important;
+    -webkit-text-fill-color: #FFD700 !important;
+    font-weight: 800 !important;
+}
+
+/* Aspiring Full Stack Developer */
+body #home-section .slider-item .text h1 {
+    color: #FFD700 !important;
+    -webkit-text-fill-color: #FFD700 !important;
+    font-weight: 800 !important;
+}
+
+/* Hi, I am Mahalakshmi */
+body #home-section .slider-item .text h1 span {
+    color: #FFB703 !important;
+    -webkit-text-fill-color: #FFB703 !important;
+    font-weight: 800 !important;
+}
+
+/* Building Responsive Websites description */
+body #home-section .slider-item .text p {
+    color: #FACC15 !important;
+    -webkit-text-fill-color: #FACC15 !important;
+    font-weight: 600 !important;
+}
